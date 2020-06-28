@@ -1,0 +1,13 @@
+[package]
+name = "dbaccess"
+version = "0.1.0"
+authors = ["Hannan <abdulhannan.ahsan@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+postgres = "0.17.3"
+ucd-util = "0.1.8"
+config = "0.10.1"
+url = "2.1.1"
