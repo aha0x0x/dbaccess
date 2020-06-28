@@ -1,8 +1,7 @@
 {
     "datasource": {
         "url": "jdbc:postgresql://localhost:5432/test?autoReconnect=true&useSSL=false",
-        "port":"5432",
-        "username": "aha",
-        "password": "aDm1n"
+        "username": "test",
+        "password": "test"
     }
 }

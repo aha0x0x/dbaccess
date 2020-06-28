@@ -15,10 +15,6 @@ impl AppConfig {
         AppConfig { config: config }
     }
 
-    // pub fn s(&self)  {
-    //     let aaaa = &self.config.get_str(&String::from("hello"));
-    // }
-
     pub fn db_config( &self ) -> DbConfig {
         let url = self.config.get_str("datasource.url").unwrap();
         let username = self.config.get_str("datasource.username").unwrap();
